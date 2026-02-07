@@ -1,0 +1,9 @@
+.bucket {
+}
+
+.pile {
+  margin: 2%;
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+}
