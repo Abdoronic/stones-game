@@ -10,8 +10,8 @@ import DecreaseIcon from "@material-ui/icons/ExpandMore";
 
 class Game extends Component {
   state = {
-    startRedStones: 8,
-    startBlueStones: 8,
+    startRedStones: 12,
+    startBlueStones: 12,
     maxStones: 1,
     redStones: 0,
     blueStones: 0,
