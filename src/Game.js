@@ -8,10 +8,12 @@ import { IconButton } from "@material-ui/core";
 import IncreaseIcon from "@material-ui/icons/ExpandLess";
 import DecreaseIcon from "@material-ui/icons/ExpandMore";
 
+const DEFAULT_STONES = 12;
+
 class Game extends Component {
   state = {
-    startRedStones: 12,
-    startBlueStones: 12,
+    startRedStones: DEFAULT_STONES,
+    startBlueStones: DEFAULT_STONES,
     maxStones: 1,
     redStones: 0,
     blueStones: 0,
