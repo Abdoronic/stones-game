@@ -16,7 +16,7 @@ export default function useGameState() {
   const winner = turn ? "A" : "B";
 
   function changeNumber(color, action) {
-    const delta = action === "+" ? 1 : -1;
+    const delta = action === "-" ? 1 : -1;
     if (color === "red") {
       setStartRedStones((prev) => Math.max(prev + delta, 1));
     } else {
